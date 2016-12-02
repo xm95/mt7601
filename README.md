@@ -11,8 +11,7 @@ The patch improves stability and performance for kernels >= 3.x
 
 ### Usage
 
-First install kernel-devel for your Linux distro
-
+First install kernel-devel for your Linux distro（首先安装安装kernel-devel为您的Linux发行版）
 ```
 git clone https://github.com/porjo/mt7601.git
 cd mt7601/src
@@ -22,9 +21,9 @@ cp RT2870STA.dat /etc/Wireless/RT2870STA/
 insmod os/linux/mt7601Usta.ko
 ```
 
-If the module has loaded OK, you should see `mt7601Usta` listed in the output of `lsmod` and a new network interface `ra0` should be present in the output of `ip link`.
+If the module has loaded OK, you should see `mt7601Usta` listed in the output of `lsmod` and a new network interface `ra0` should be present in the output of `ip link`.(如果模块加载OK，你应该看到mt7601Usta在输出中列出lsmod和新的网络接口ra0应该出现在的输出ip link。)
 
-If all goes well, you can permanently install the driver with `make install`.
+If all goes well, you can permanently install the driver with `make install`.(如果一切顺利的话，你可以永久的装驱动程序make install。)
 
 ### History
 
